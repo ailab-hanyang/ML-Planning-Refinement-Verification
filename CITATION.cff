@@ -1,0 +1,84 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "A Refinement and Verification Pipeline for Learning-Based Planning: Temporal Consistency, Dynamics Feasibility, and Comfort"
+abstract: >-
+  A refinement-and-verification trajectory processing pipeline that improves the
+  closed-loop execution of learning-based motion planners without replacing the
+  underlying planner. It combines a Kalman filter-based consistency refinement
+  across planning cycles, an NMPC-based Dynamic-Safety-Comfort refinement that
+  enforces vehicle dynamics together with safety and comfort constraints, and a
+  risk-aware verification and selection stage based on friction limits,
+  collision risk, and driving-quality metrics.
+type: software
+authors:
+  - family-names: Heo
+    given-names: Seungwoo
+    orcid: "https://orcid.org/0009-0000-3057-9891"
+    affiliation: "Department of Automotive Engineering (Automotive-Software Convergence), Hanyang University"
+  - family-names: Ha
+    given-names: Seheon
+    orcid: "https://orcid.org/0009-0004-2623-1541"
+    affiliation: "Department of Automotive Engineering (Automotive-Software Convergence), Hanyang University"
+  - family-names: Koo
+    given-names: Jahyun
+    orcid: "https://orcid.org/0009-0006-5608-5017"
+    affiliation: "Department of Automotive Engineering (Automotive-Software Convergence), Hanyang University"
+  - family-names: Seok
+    given-names: Jiwon
+    orcid: "https://orcid.org/0000-0002-5044-5337"
+    affiliation: "Department of Automotive Engineering, Hanyang University"
+  - family-names: Na
+    given-names: Yuseung
+    orcid: "https://orcid.org/0000-0002-3153-094X"
+    affiliation: "Department of Automotive Engineering, Hanyang University"
+  - family-names: Resende
+    given-names: Paulo
+    orcid: "https://orcid.org/0000-0002-5170-7837"
+    affiliation: "Driving Automation anSWer, Valeo Brain Division, Valeo"
+  - family-names: Heitzmann
+    given-names: Thomas
+    affiliation: "Driving Automation anSWer, Valeo Brain Division, Valeo"
+  - family-names: Jo
+    given-names: Kichun
+    orcid: "https://orcid.org/0000-0003-0543-2198"
+    affiliation: "Department of Automotive Engineering, Hanyang University"
+repository-code: "https://github.com/ailab-hanyang/ML-Planning-Refinement-Verification"
+license: MIT
+date-released: "2026-10-18"
+keywords:
+  - autonomous driving
+  - motion planning
+  - learning-based planning
+  - trajectory refinement
+  - nonlinear model predictive control
+  - ride comfort
+  - nuPlan
+# TODO: 논문 게재가 확정되면 아래 journal / year / doi / volume / pages 를 채우세요.
+preferred-citation:
+  type: article
+  title: "A Refinement and Verification Pipeline for Learning-Based Planning: Temporal Consistency, Dynamics Feasibility, and Comfort"
+  authors:
+    - family-names: Heo
+      given-names: Seungwoo
+      orcid: "https://orcid.org/0009-0000-3057-9891"
+    - family-names: Ha
+      given-names: Seheon
+      orcid: "https://orcid.org/0009-0004-2623-1541"
+    - family-names: Koo
+      given-names: Jahyun
+      orcid: "https://orcid.org/0009-0006-5608-5017"
+    - family-names: Seok
+      given-names: Jiwon
+      orcid: "https://orcid.org/0000-0002-5044-5337"
+    - family-names: Na
+      given-names: Yuseung
+      orcid: "https://orcid.org/0000-0002-3153-094X"
+    - family-names: Resende
+      given-names: Paulo
+      orcid: "https://orcid.org/0000-0002-5170-7837"
+    - family-names: Heitzmann
+      given-names: Thomas
+    - family-names: Jo
+      given-names: Kichun
+      orcid: "https://orcid.org/0000-0003-0543-2198"
+  year: 2026

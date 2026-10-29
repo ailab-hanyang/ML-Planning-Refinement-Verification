@@ -53,10 +53,9 @@ keywords:
   - nonlinear model predictive control
   - ride comfort
   - nuPlan
-# TODO: 논문 게재가 확정되면 아래 journal / year / doi / volume / pages 를 채우세요.
 preferred-citation:
   type: article
-  title: "A Refinement and Verification Pipeline for Learning-Based Planning: Temporal Consistency, Dynamics Feasibility, and Comfort"
+  title: "A refinement and verification pipeline for learning-based planning: Temporal consistency, dynamics feasibility, and comfort"
   authors:
     - family-names: Heo
       given-names: Seungwoo
@@ -81,4 +80,10 @@ preferred-citation:
     - family-names: Jo
       given-names: Kichun
       orcid: "https://orcid.org/0000-0003-0543-2198"
-  year: 2026
+  journal: "Control Engineering Practice"
+  volume: 178
+  start: 107320
+  year: 2027
+  issn: "0967-0661"
+  doi: "10.1016/j.conengprac.2026.107320"
+  url: "https://www.sciencedirect.com/science/article/pii/S0967066126005630"
